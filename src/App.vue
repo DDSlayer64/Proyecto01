@@ -1,12 +1,12 @@
 <script setup>
+import { RouterView } from 'vue-router';
+import Navegacion from './components/Navegacion.vue';
 
 </script>
 
 <template>
- <div class="po w-[100%] h-[100%] bg-amber-500"></div>
+  <Navegacion></Navegacion>
+<RouterView></RouterView>
 </template>
 
-<style scoped>
-
-</style>
 
