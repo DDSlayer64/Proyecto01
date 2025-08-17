@@ -10,6 +10,9 @@
         <router-link to="segunda" class="hover:bg-amber-200 px-2">Ir a Segunda
             
         </router-link>
+        <router-link to="usuario" class="hover:bg-amber-200 px-2">Ir a Usauario
+
+        </router-link>
     </nav>
 </template>
 
