@@ -2,6 +2,11 @@ import {createRouter, createWebHistory} from 'vue-router'
 import Inicio from '../views/Inicio.vue'
 import Segunda from '../views/Segunda.vue'
 import Usuario from '../views/Usuario.vue'
+import Balance from '../views/Balance.vue'
+import Notificaciones from '../views/Notificaciones.vue'
+import Notas from '../views/Notas.vue'
+import Ventas from '../views/Ventas.vue'
+import Productos from '../views/Productos.vue'
 
 const router = createRouter(
     {
@@ -21,6 +26,31 @@ const router = createRouter(
                 path:"/usuario",
                 component: Usuario,
                 name: 'usuario'
+            },
+            {
+                path:"/balance",
+                component: Balance,
+                name: 'balance'
+            },
+            {
+                path:"/notas",
+                component: Notas,
+                name: 'notas'
+            },
+            {
+                path:"/notificaciones",
+                component: Notificaciones,
+                name: 'notificaciones'
+            },
+            {
+                path:"/productos",
+                component: Productos,
+                name: 'productos'
+            },
+            {
+                path:"/ventas",
+                component: Ventas,
+                name: 'ventas'
             }
         ]
     }

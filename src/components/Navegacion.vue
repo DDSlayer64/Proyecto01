@@ -3,14 +3,24 @@
 </script>
 
 <template>
-    <nav class="navegacion w-[100vw] h-[10vh] bg-[peru] flex flex-row">
-        <router-link to="inicio" class="hover:bg-amber-200 px-2">Ir a Inicio
-
-        </router-link>
-        <router-link to="segunda" class="hover:bg-amber-200 px-2">Ir a Segunda
+    <nav class="navegacion w-[100vw] h-[10vh] bg-blue-500 flex flex-row">
+        <router-link to="notificaciones" class="hover:bg-blue-400 px-2 w-[5%] bg-blue-700  border-2 border-blue-600">Notificaciones
             
         </router-link>
-        <router-link to="usuario" class="hover:bg-amber-200 px-2">Ir a Usauario
+        <div class="w-[70%] h-[100%]"></div>
+        <router-link to="notas" class="hover:bg-blue-400 px-2 w-[5%] bg-blue-700 border-2 border-blue-600 ">Notas
+            
+        </router-link>
+        <router-link to="productos" class="hover:bg-blue-400 px-2 w-[5%] bg-blue-700  border-2 border-blue-600">Productos
+
+        </router-link>
+        <router-link to="ventas" class="hover:bg-blue-400 px-2 w-[5%] bg-blue-700  border-2 border-blue-600">Ventas
+
+        </router-link>
+        <router-link to="balance" class="hover:bg-blue-400 px-2 w-[5%] bg-blue-700  border-2 border-blue-600">Balance 
+
+        </router-link>
+        <router-link to="usuario" class="hover:bg-blue-400 px-2 w-[5%] bg-blue-700  border-2 border-blue-600">Usuario
 
         </router-link>
     </nav>
