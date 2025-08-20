@@ -3,7 +3,7 @@ import Inicio from './Inicio.vue';
 </script>
 
 <template>
-    <div class="odo  w-screen h-[90vh] flex flex-col justify-evenly items-center flex">
+    <div class="odo  w-screen h-[90vh] flex flex-col justify-evenly items-center">
          <div class="h-[70vh] w-[60vw] flex">
         
             <div class="InicioS w-[40vw] h-[70vh] bg-blue-700 flex flex-col justify-center items-center p-10 text-white">
