@@ -7,6 +7,8 @@ import Notificaciones from '../views/Notificaciones.vue'
 import Notas from '../views/Notas.vue'
 import Ventas from '../views/Ventas.vue'
 import Productos from '../views/Productos.vue'
+import InicioSesion from '../views/InicioSesion.vue'
+import Registro from '../views/Registro.vue'
 
 const router = createRouter(
     {
@@ -51,6 +53,16 @@ const router = createRouter(
                 path:"/ventas",
                 component: Ventas,
                 name: 'ventas'
+            },
+            {
+                path:"/iniciosesion",
+                component: InicioSesion,
+                name: 'iniciosesion'
+            },
+            {
+                path:"/registro",
+                component: Registro,
+                name: 'registro'
             }
         ]
     }
