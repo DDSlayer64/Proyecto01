@@ -3,6 +3,7 @@ import Inicio from '../views/Inicio.vue'
 import Segunda from '../views/Segunda.vue'
 import Usuario from '../views/Usuario.vue'
 import Mensajes from '../views/Mensajes.vue'
+import Principal from '../views/Principal.vue'
 
 const router = createRouter(
     {
@@ -27,6 +28,11 @@ const router = createRouter(
                 path:"/usuario/mensajes",
                 component: Mensajes,
                 name: 'mensajes'
+            },
+            {
+                path:"/principal",
+                component: Principal,
+                name: 'principal'
             }
             
         ]
