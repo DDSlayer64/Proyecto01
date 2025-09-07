@@ -1,4 +1,5 @@
 <script setup>
+<<<<<<< HEAD
 import Inicio from './Inicio.vue';
 
 function mostrarAlerta(){
@@ -34,4 +35,12 @@ function mostrarAlerta(){
          </div>
 
     </div>
+=======
+import { RouterLink } from 'vue-router';
+</script>
+
+<template>
+    <h1>Usuario</h1>
+    <router-link to="Mensajes"> Mensajes</router-link>
+>>>>>>> origin/julieta
 </template>

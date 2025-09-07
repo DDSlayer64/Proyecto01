@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <template>
   <div class="p-6 bg-sky-200 min-h-screen">
     <h1 class="text-2xl font-bold mb-4">Mensajes enviados</h1>
@@ -100,3 +101,13 @@ body.modal-open {
   overflow: hidden;
 }
 </style>
+=======
+<script setup>
+import Principal from './Principal.vue';
+</script>
+
+<template>
+    <h1>Mensajes</h1>
+    <router-link to="Principal">Principal</router-link>
+</template>
+>>>>>>> origin/julieta
