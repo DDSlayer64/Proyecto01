@@ -9,6 +9,7 @@
 </template>
 
 <script>
+import Inicio from './Inicio.vue';
 export default {
   methods: {
     goToLogin() {

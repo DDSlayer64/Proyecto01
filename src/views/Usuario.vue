@@ -1,5 +1,5 @@
 <script setup>
-import { RouterLink } from 'vue-router';
+import Inicio from './Inicio.vue'; 
 </script>
 
 <template>

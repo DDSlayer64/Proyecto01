@@ -1,5 +1,5 @@
 <script setup>
-import Principal from './Principal.vue';
+import Inicio from './Inicio.vue';
 </script>
 
 <template>
