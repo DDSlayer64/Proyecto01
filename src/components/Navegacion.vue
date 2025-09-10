@@ -16,6 +16,9 @@
         <router-link to="usuario/mensajes" class="hover:bg-green-300 px-2 border-2 border-green-600">Ir a Mensajes
 
         </router-link>
+        <router-link to="bienvenida" class="hover:bg-green-300 px-2 border-2 border-green-600">Ir a Bienvenida
+
+        </router-link>
 
     </nav>
 </template>

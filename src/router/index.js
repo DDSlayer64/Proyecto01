@@ -1,9 +1,10 @@
 import {createRouter, createWebHistory} from 'vue-router'
 import Inicio from '../views/Inicio.vue'
-import Segunda from '../views/Segunda.vue'
 import Usuario from '../views/Usuario.vue'
 import Mensajes from '../views/Mensajes.vue'
 import Principal from '../views/Principal.vue'
+import Bienvenida from '../views/Bienvenida.vue'
+import Registro from '../views/Registro.vue'
 
 const router = createRouter(
     {
@@ -13,11 +14,6 @@ const router = createRouter(
                 path:"/",
                 component: Inicio,
                 name: 'inicio'
-            },
-            {
-                path:"/segunda",
-                component: Segunda,
-                name: 'segunda'
             },
             {
                 path:"/usuario",
@@ -33,6 +29,16 @@ const router = createRouter(
                 path:"/principal",
                 component: Principal,
                 name: 'principal'
+            },
+            {
+                path:"/bienvenida",
+                component: Bienvenida,
+                name: 'bienvenida'
+            },
+            {
+                path:"/Registro",
+                component: Registro,
+                name: 'registro'
             }
             
         ]

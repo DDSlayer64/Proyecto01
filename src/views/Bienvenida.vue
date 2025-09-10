@@ -1,5 +1,5 @@
 <template>
-  <div class="welcome-container">
+  <div class="welcome-container ">
     <h1>Bienvenido/a</h1>
     <div class="button-container">
       <button @click="goToLogin">Iniciar Sesión</button>
@@ -38,7 +38,7 @@ button {
   cursor: pointer;
   border: none;
   border-radius: 5px;
-  background-color: #007bff; 
+  background-color: blue; 
   color: white; 
 }
 

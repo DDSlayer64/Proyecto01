@@ -1,5 +1,4 @@
 <script setup>
-<<<<<<< HEAD
 import Inicio from './Inicio.vue';
 
 function mostrarAlerta(){
@@ -30,17 +29,9 @@ function mostrarAlerta(){
 
 
          <div class="configuracion w-[12%] h-[10%]  flex justify-center">
-            <button type="submit" class="bg-blue-900 text-white w-full hover:bg-sky-700 active:bg-pink-200 placeholder:bg-black-500 rounded-2xl border-5 border-green-500" 
+            <button type="submit" class="bg-blue-900 text-white w-full hover:bg-sky-700 active:bg-blue-500 placeholder:bg-black-500 rounded-2xl border-5 border-green-500" 
             @click="mostrarAlerta">Editar perfil</button>
          </div>
 
     </div>
-=======
-import { RouterLink } from 'vue-router';
-</script>
-
-<template>
-    <h1>Usuario</h1>
-    <router-link to="Mensajes"> Mensajes</router-link>
->>>>>>> origin/julieta
 </template>
